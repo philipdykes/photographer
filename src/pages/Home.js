@@ -1,7 +1,9 @@
 import "../css/page/Home.scss";
-import Nav from "../components/Nav";
-import { BiAlignLeft } from "react-icons/bi";
+
 import { useState } from "react";
+import { BiAlignLeft } from "react-icons/bi";
+
+import Nav from "../components/Nav";
 
 export default function Home() {
   const [clicked, setClicked] = useState(false);
@@ -18,7 +20,7 @@ export default function Home() {
         </div>
 
         <div className="h-name">
-          <h1 className="h-first">philip dykes</h1>
+          <h1 className="h-first">philip_dykes</h1>
           <h1 className="h-last">PHOTOGRAPHER</h1>
         </div>
 

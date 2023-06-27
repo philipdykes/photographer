@@ -1,28 +1,26 @@
 @import "../style.scss";
 
-
-
 #home {
   @include flex(0, stretch);
 }
 
-
 .h-icon {
   font-size: 6rem;
-  color: white;
+  color: $d_grey;
 }
 
 .h-name {
-  @include txtDecoration(5rem, bold);
+  @include txtDecoration(4rem, bold);
   text-align: center;
+  letter-spacing: 1rem;
   margin: 2rem;
-  color: white;
+  color: $d_grey;
 
   .h-first {
     animation: slideInRight 2s ease-out;
 
     @media (max-width: 35rem) {
-      font-size: 5rem;
+      font-size: 3rem;
     }
   }
 
@@ -30,18 +28,17 @@
     animation: slideInLeft 2s ease-out;
 
     @media (max-width: 35rem) {
-      font-size: 5rem;
+      font-size: 3rem;
     }
-
   }
 }
 
 .h-content-visible {
-  @include flexChild(1 1 100%, column, space-between, 0, $pink);
+  @include flexChild(1 1 100%, column, space-between, 0, $vl_grey);
 }
 
 .h-content-hidden {
-  @include flexChild(1 1 100%, column, space-between, 0, $pink);
+  @include flexChild(1 1 100%, column, space-between, 0, $vl_grey);
 }
 
 .h-nav-visible {
