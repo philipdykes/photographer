@@ -1,7 +1,6 @@
 import "../css/component/Drop.scss";
 
-export default function Nav({contact})
-{
+export default function Nav({ contact }) {
   return (
     <div className={`drop-content-${contact ? "visible" : "hidden"}`}>
       <div className="page">

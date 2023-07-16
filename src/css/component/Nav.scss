@@ -7,14 +7,16 @@
 
   #menu,
   #menu:active {
-    @include linkDecoration(9rem, bold);
+    @include linkDecoration(8rem, bold);
   }
+
   .gallery {
     @include flex(0, 0, 0, 0, center);
 
     .drop-btn {
-      @include linkDecoration(5rem, bold);
+      @include linkDecoration(2.5rem, bold);
     }
+
     .vertical {
       transform: rotate(-90deg);
     }

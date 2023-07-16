@@ -10,15 +10,16 @@
 }
 
 .h-name {
-  @include txtDecoration(4rem, bold);
+  @include txtDecoration(2rem, bold);
   text-align: center;
   letter-spacing: 1rem;
   margin: 2rem;
-  color: $d_grey;
+//  color: $d_grey;
 
   .h-first {
     animation: slideInRight 2s ease-out;
-
+    //font-size: 4rem;
+    color: $pink;
     @media (max-width: 35rem) {
       font-size: 3rem;
     }
@@ -27,6 +28,7 @@
   .h-last {
     animation: slideInLeft 2s ease-out;
 
+    color: $d_grey;
     @media (max-width: 35rem) {
       font-size: 3rem;
     }

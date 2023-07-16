@@ -24,13 +24,11 @@ $pink: rgba(237, 26, 153, 0.9);
   font-family: inherit;
 }
 
-@mixin flex(
-  $direction: row,
+@mixin flex($direction: row,
   $justify: flex-start,
   $color: white,
   $wrap: nowrap,
-  $align: normal
-) {
+  $align: normal) {
   display: flex;
   justify-content: $justify;
   align-items: $align;
@@ -40,13 +38,11 @@ $pink: rgba(237, 26, 153, 0.9);
   min-width: fit-content;
 }
 
-@mixin flexChild(
-  $flex,
+@mixin flexChild($flex,
   $direction: row,
   $justify: flex-start,
   $align: normal,
-  $color: white
-) {
+  $color: white) {
   flex: $flex;
   display: flex;
   flex-direction: $direction;
@@ -79,10 +75,10 @@ body {
 
 a,
 a:active {
-  @include linkDecoration(3rem, bold);
+  @include linkDecoration(2.5rem, bold);
 }
 
 h2 {
   color: $m_grey;
-  @include txtDecoration(3rem, bold);
+  @include txtDecoration(2rem, bold);
 }
