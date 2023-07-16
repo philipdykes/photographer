@@ -20,8 +20,8 @@ export default function Home() {
         </div>
 
         <div className="h-name">
-          <h1 className="h-first">philip_dykes</h1>
-          <h1 className="h-last">PHOTOGRAPHER</h1>
+          <h1 className="h-first">Philip Dykes</h1>
+          <h1 className="h-last">Photographer</h1>
         </div>
 
         <footer />
