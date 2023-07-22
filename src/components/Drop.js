@@ -15,7 +15,7 @@ export default function Nav({ vert }) {
         <Link to="/redpoint">Redpoint_Western</Link>
       </div>
       <div className="page">
-        <Link to="/abu-dhabi">Abu Dhabi</Link>
+        <Link to="/abu-dhabi">Abu_Dhabi</Link>
       </div>
       <div className="page">
         <Link to="/peabody">Peabody</Link>
