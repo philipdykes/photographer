@@ -1,8 +1,8 @@
-import "../css/component/Drop.scss";
+import '../css/component/Drop.scss';
 
 export default function Nav({ contact }) {
   return (
-    <div className={`drop-content-${contact ? "visible" : "hidden"}`}>
+    <div className={`drop-content-${contact ? 'visible' : 'hidden'}`}>
       <div className="page">
         <a href="mailto:philipdykesphotographer@gmail.com">Email</a>
       </div>
